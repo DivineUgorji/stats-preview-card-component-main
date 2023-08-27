@@ -24,41 +24,41 @@
   <body>
     <main>
       <div class="stats-card">
-        <div class="image-container">
-          <picture>
-            <img
-              class="stats__header-image"
-              src="images/image-header-mobile.jpg"
-              alt="stats image"
-            />
-          </picture>
-        </div>
+        <picture class="stats__header-image">
+          <source
+            srcset="images/image-header-desktop.jpg"
+            media="(min-width: 850px)"
+          />
+
+          <img src="images/image-header-mobile.jpg" alt="stats image" />
+        </picture>
         <div class="stats-card__content">
-          <h1>Get insights that help your business grow.</h1>
-          <p>
+          <h1 class="stats-card__title">
+            Get <span>insights</span> that help your business grow.
+          </h1>
+          <p class="stats-card__description">
             Discover the benefits of data analytics and make better decisions
             regarding revenue, customer experience, and overall efficiency.
           </p>
           <div class="flex-group">
             <div class="company">
-              <p>10k+</p>
-              <p>companies</p>
+              <p class="flex-group__numbers">10k+</p>
+              <p class="flex-group__description">companies</p>
             </div>
 
             <div class="template">
-              <p>314</p>
-              <p>templates</p>
+              <p class="flex-group__numbers">314</p>
+              <p class="flex-group__description">templates</p>
             </div>
 
             <div class="query">
-              <p>12m+</p>
-              <p>queries</p>
+              <p class="flex-group__numbers">12m+</p>
+              <p class="flex-group__description">queries</p>
             </div>
           </div>
         </div>
       </div>
     </main>
-
     <div class="attribution">
       Challenge by
       <a
