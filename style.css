@@ -173,23 +173,23 @@ img {
   .stats-card__title {
     font-size: 2.25rem;
     line-height: 2.75rem;
-    margin-top: 2.5rem;
-    margin-left: 4.45rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 4.4rem;
   }
 
   .stats-card__description {
     margin-top: 1.56rem;
-    padding-left: 4.47rem;
-    margin-right: 4rem;
+    padding-left: 2rem;
+    margin-right: 4.4rem;
   }
 
   .flex-group {
     flex-direction: row;
     gap: 3.8rem;
     padding-top: 4.5rem;
-    padding-left: 4.5rem;
-    padding-bottom: 1rem;
-    margin-right: 4rem;
+    padding-left: 2rem;
+    margin-right: 4.4rem;
   }
 }
 
