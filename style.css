@@ -173,9 +173,9 @@ img {
   .stats-card__title {
     font-size: 2.25rem;
     line-height: 2.75rem;
-    margin-top: 1rem;
     margin-left: 2rem;
-    margin-right: 4.4rem;
+    padding-top: 4.4rem;
+    padding-right: 4.4rem;
   }
 
   .stats-card__description {
