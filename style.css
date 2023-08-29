@@ -89,21 +89,16 @@ body {
   padding: 2rem;
 }
 
-.image-container {
-  background-color: var(--color-primary-accent);
-  mix-blend-mode: multiply;
-  opacity: 0.7511;
-}
-
 picture {
-  mix-blend-mode: multiply;
-  opacity: 0.75;
+  background-color: var(--color-primary-accent);
 }
 
-.stats__header-image img {
+img {
   width: 100%;
   height: auto;
   object-fit: cover;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
 }
 
 .stats-card__title {
@@ -157,7 +152,7 @@ picture {
   text-transform: uppercase;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 56.67rem) {
   .stats-card {
     max-width: 69.375rem;
     flex-direction: row-reverse;
@@ -170,7 +165,7 @@ picture {
     text-align: left;
   }
 
-  .stats__header-image img {
+  img {
     height: 100%;
     object-fit: cover;
   }
