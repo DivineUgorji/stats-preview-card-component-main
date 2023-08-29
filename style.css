@@ -173,7 +173,7 @@ img {
   .stats-card__title {
     font-size: 2.25rem;
     line-height: 2.75rem;
-    margin-top: 4.5rem;
+    margin-top: 2.5rem;
     margin-left: 4.45rem;
   }
 
@@ -188,7 +188,7 @@ img {
     gap: 3.8rem;
     padding-top: 4.5rem;
     padding-left: 4.5rem;
-    padding-bottom: 2.69rem;
+    padding-bottom: 1rem;
     margin-right: 4rem;
   }
 }
